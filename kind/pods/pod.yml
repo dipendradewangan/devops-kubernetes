@@ -5,7 +5,7 @@ metadata:
   namespace: ns-nginx
 spec:
   containers:
-    - name: pod-nginx
+    - name: container-nginx
       image: nginx:latest
       ports:
         - containerPort: 80
