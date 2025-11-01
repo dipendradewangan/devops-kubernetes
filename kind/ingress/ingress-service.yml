@@ -2,7 +2,7 @@ kind: Service
 apiVersion: v1
 metadata: 
   name: notes-app-service
-  namespace: ns-nginx
+  namespace: ns-ingress
 spec:
   selector:
     app: notes-app
