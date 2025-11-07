@@ -4,5 +4,5 @@ metadata:
   name: mysql-config-map
   namespace: ns-mysql
 data: 
-  MYSQL_DATABASE: devops
+  MYSQL_DATABASE: devops_configmap_database
   
